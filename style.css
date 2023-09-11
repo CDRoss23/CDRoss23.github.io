@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #0e0447;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top_bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.logo img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pestañas {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+header .pestañas ul li a:hover {
+  color: #ffc400;
+}
+
+a, li {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 6rem;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2, h3, p {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Estilos para secciones específicas */
+.introduccion, .caracteristicas, section p {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  text-align: justify;
+}
+
+.caracteristicas .services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services img {
+  max-width: 10cm;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sub {
+  text-align: left;
+  margin: 0 2cm;
+}
+
+.sub_2 {
+  margin: 0 2cm;
+}
+
+.Mas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.Mas a {
+  color: black;
+  font-size: 16px;
+}
+
+.Mas a:hover {
+  color: #2809da;
+}
+
+.main_div {
+  padding: 0 3cm;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.img_service {
+  flex: 1; /* Ocupa la mitad izquierda */
+  max-width: 200px;
+}
+
+.img_service img {
+  max-width: 180px; /* La imagen se ajusta al ancho del contenedor */
+  height: auto;
+}
+
+.text_service {
+  flex: 1; /* Ocupa la mitad derecha */
+  text-align: justify;
+  margin-left: 20px; /* Espacio entre la imagen y el texto */
+  border-bottom: solid gray;
+}
+
+.demo_services {
+  margin-top: 1rem; /* Espacio entre el texto y el enlace "demo_services" */
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+
+.link_services a{
+  color: #333;
+  font-size: 16px;
+}
+.link_services a:hover{
+  color: #2809da;
+}
+.demo_services a {
+  color: #333;
+}
+
+.text_service p {
+  margin: 0;
+}
+
+.text_service li {
+  font-size: 16px;
+  color: #333;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
